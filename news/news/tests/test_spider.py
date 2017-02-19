@@ -1,17 +1,7 @@
 
-#import subprocess
-#import unittest
-#from scrapy.crawler import Crawler
-#from scrapy.utils.project import get_project_settings
-#from twisted.internet import reactor, task
-#from stack.spiders.news_spider import BbcSpider
-
-
 
 import unittest
-#import news.spiders
-#from news_spider import BbcSpider
-from scrapyproject.spiders import BbcSpider
+from news_spider import BbcSpider
 from responses import fake_response_from_file
 
 class NewsSpiderTest(unittest.TestCase):
